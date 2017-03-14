@@ -1,0 +1,9 @@
+Building DashScoin
+
+See doc/readme-qt.rst for instructions on building DashScoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of DashScoin.
+
+See doc/build-*.txt for instructions on building dashscoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of DashScoin.
