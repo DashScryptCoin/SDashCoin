@@ -1,30 +1,29 @@
 SDashCoin integration/staging tree
 ================================
 
-http://www.sdashcoin.org
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 SDashCoin Developers
+Copyright (c) 2011-2014 DashScoin Developers
 
-What is SDashCoin?
+What is SDashcoin?
 ----------------
 
-SDashCoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
-
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
-
+DashScoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+ - 1 minute block targets
+ - subsidy halves in 100k blocks (~2 years)
+ - ~18.9 million total coins
+ SPECIAL BOUNTY FOR EARLY MINERS!
+ - First 5000 Blocks have special reward of 100 DASHS per block
+ - After 5000 first blocks until block 100k normal reward is 10 DASHS
+ - Block Halving will by aprox in 2 years at block 100k 
+ 
 For more information, as well as an immediately useable, binary version of
-the SDashCoin client sofware, see http://www.sdashcoin.org.
+the DashScoin client sofware.
 
 License
 -------
 
-SDashCoin is released under the terms of the MIT license. See `COPYING` for more
+DashScoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -33,7 +32,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the SDashCoin
+If it is a simple/trivial/non-controversial change, then one of the DashScoin
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -45,8 +44,8 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/sdashcoin-project/sdashcoin/tags) are created
-regularly to indicate new official, stable release versions of SDashCoin.
+completely stable. [Tags](https://github.com/dashscoin-project/dashscoin/tags) are created
+regularly to indicate new official, stable release versions of DashScoin.
 
 Testing
 -------
@@ -69,5 +68,8 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./sdashcoin-qt_test
+    ./sdashscoin-qt_test
+
+# SDashCoin
+ 
 
